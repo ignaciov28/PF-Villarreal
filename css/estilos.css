@@ -1,0 +1,208 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+.menuPrincipal{
+    background-color: rgb(236, 236, 236);
+    font-weight: bold;
+}
+
+.logo{
+    width: 120px;
+    display: inline-block;
+}
+
+.menuPrincipal ul{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px
+
+}
+.menuPrincipal ul li{
+    padding: 20px 20px;
+    display: inline-block
+}
+
+.titulos{
+    margin: 50px;
+}
+
+.titulos h1{
+    font-size: 40px;
+    color: rgb(8, 8, 87);
+}
+
+.titulos h2{
+    font-size: 20px;
+}
+
+.imagenPrincipal{
+    width: 1500px;
+}
+
+
+.serviciosimg{
+    width: 750px;
+}
+
+.paquetesimg{
+    width: 750px;
+}
+
+.nosotrosimg{
+    width: 750px;
+    margin-left: 61px;
+}
+
+.contactoimg{
+    width: 750px;
+}
+
+.redes{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.logoFace{
+    width: 50px;
+}
+
+.logoInsta{
+    width: 50px;
+    margin-left: 10px;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+}
+
+.logoWsp{
+    width: 60px;
+}
+
+.textito{
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.titservicios{
+    margin: 20px;
+    font-size: 40px;
+    color: rgb(8, 8, 87);
+}
+
+
+.admredes img{
+    width: 650px;
+
+    top: 30px;
+    left: 700px;
+}
+.admredes h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.admredes p{
+    font-size: 20px;
+    display: inline-block;
+    width: 300px;
+    margin-left: 30px;
+}
+
+
+.identidad img{
+    width: 650px;
+
+    top: 310px;
+}
+.identidad h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.identidad p{
+    font-size: 20px;
+    display: inline-block;
+    right: 30px;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.medicion img{
+    width: 650px;
+
+}
+.medicion h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.medicion p{
+    font-size: 20px;
+    display: inline-block;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.titpaquetes h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(8, 8, 87);
+}
+.titpaquetes h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.tabla{
+    font-size: 15px;
+    background-color: rgb(8, 8, 87);
+    color: rgb(255, 255, 255);
+}
+.paq{
+    position: relative;
+}
+.paq img{
+    width: 600px;
+    position: absolute;
+    top: 30px;
+    left: 700px;
+}
+
+.contenedornosotros{
+    position: relative;
+}
+.nosotrosimg{
+    position: absolute;
+    left: 700px;
+}
+.titnosotros h2{
+    color: rgb(8, 8, 87);
+    font-size: 40px;
+    width: 700px;
+}
+.titnosotros p{
+    font-size: 20px;
+    width: 700px;
+}
+
+.titcontact h1{
+    font-size: 40px;
+    color: rgb(8, 8, 87);
+}
+.titcontact p{
+    font-size: 20px;
+}
