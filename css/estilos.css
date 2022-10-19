@@ -14,13 +14,16 @@ header{
     z-index: 1000;
 }
 
+
 .menuPrincipal{
     background-color: rgb(236, 236, 236);
     font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .logo{
-    width: 120px;
+    width: 100px;
     display: inline-block;
 }
 
@@ -37,6 +40,9 @@ header{
 
 .titulos{
     margin: 50px;
+
+    display: flex; flex-direction: column;
+    align-items: center;
 }
 
 .titulos h1{
@@ -52,26 +58,26 @@ header{
     width: 1500px;
 }
 
-
+.imageneshome{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
 .serviciosimg{
-    width: 750px;
+    width: 700px;
 }
-
 .paquetesimg{
-    width: 750px;
+    width: 700px;
 }
-
 .nosotrosimg{
-    width: 750px;
-    margin-left: 61px;
+    width: 700px;
 }
-
 .contactoimg{
-    width: 750px;
+    width: 700px;
 }
 
 .redes{
-    margin-top: 30px;
+    margin-top: 80px;
     margin-left: 10px;
 }
 
@@ -100,95 +106,99 @@ header{
 }
 
 .titservicios{
-    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
     font-size: 40px;
     color: rgb(8, 8, 87);
 }
 
 
-.admredes img{
-    width: 650px;
-
-    top: 30px;
-    left: 700px;
+.titadm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: bolder;
 }
-.admredes h2{
-    font-size: 25px;
-    font-weight: bold;
+.admredes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 8, 87)
+}
+.admredes img{
+    width: 700px;
+    margin-left: 20px;
 }
 .admredes p{
     font-size: 20px;
-    display: inline-block;
-    width: 300px;
-    margin-left: 30px;
+    margin-left: 60px;
+    color: aliceblue;
 }
 
-
+.titidentidad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.identidad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 8, 87)
+}
 .identidad img{
-    width: 650px;
-
-    top: 310px;
-}
-.identidad h2{
-    font-size: 25px;
-    font-weight: bold;
+    width: 700px;
+    margin-left: 20px;
 }
 .identidad p{
     font-size: 20px;
-    display: inline-block;
-    right: 30px;
-    width: 300px;
-    margin-left: 30px;
+    margin-left: 60px;
+    color: aliceblue;
 }
 
+
+.titmedicion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.medicion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 8, 87);
+}
 .medicion img{
-    width: 650px;
-
-}
-.medicion h2{
-    font-size: 25px;
-    font-weight: bold;
+    width: 700px;
+    margin-left: 20px;
 }
 .medicion p{
     font-size: 20px;
-    display: inline-block;
-    width: 300px;
-    margin-left: 30px;
-}
-
-.titpaquetes h1{
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(8, 8, 87);
-}
-.titpaquetes h2{
-    font-size: 25px;
-    font-weight: bold;
+    margin-left: 60px;
+    color: aliceblue;
 }
 
 
-.tabla{
-    font-size: 15px;
-    background-color: rgb(8, 8, 87);
-    color: rgb(255, 255, 255);
-}
-.paq{
-    position: relative;
-}
-.paq img{
-    width: 600px;
-    position: absolute;
-    top: 30px;
-    left: 700px;
-}
+
+
+
 
 .contenedornosotros{
     position: relative;
 }
-.nosotrosimg{
-    position: absolute;
-    left: 700px;
-}
+
+
 .titnosotros h2{
     color: rgb(8, 8, 87);
     font-size: 40px;
