@@ -14,6 +14,14 @@ header{
     z-index: 1000;
 }
 
+
+
+
+
+
+
+
+
 /*inicio*/
 
 .navbar{
@@ -272,6 +280,16 @@ header{
 
 
 
+
+
+
+
+
+
+
+
+
+
 /*redes*/
 .redes{
     margin-top: 80px;
@@ -302,6 +320,17 @@ header{
     margin-left: 10px;
     margin-top: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /*servicios*/
 .titservicios{
@@ -506,6 +535,17 @@ header{
 }
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /*paquetes*/
 
 .titpaquetes{
@@ -545,34 +585,95 @@ header{
     }
 }
 
+
+
+
+
+
+
+
+
+
+
 /*nosotros*/
+
 .titnosotros{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 40px;
     font-size: 35px;
     color: #163d74
 }
 
 .nosotrosblock{
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #163d74
 }
-
 .nosotrosblock img{
     width: 700px;
     margin-left: 20px;
 }
-
 .nosotrosblock p{
     font-size: 20px;
     margin-left: 60px;
     color: aliceblue;
 }
+
+/*tamaño tablet nosotros*/
+@media screen and (max-width: 768px){
+
+    .titnosotros{
+        font-size: 30px;
+    }
+
+.nosotrosblock img{
+    width: 330px;
+    margin-left: 2px;
+}
+.nosotrosblock p{
+    font-size: 15px;
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+/*tamaño celular nosotros*/
+@media screen and (max-width: 500px){
+
+    .titnosotros{
+        font-size: 25px;
+    }
+
+    .nosotrosblock{
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+    }
+.nosotrosblock img{
+    width: 100%;
+}
+.nosotrosblock p{
+    margin-top: 10px;
+    font-size: 15px;
+    width: 100%;
+    color: black;
+}
+}
+
+
+
+
+
+
+
+
+
 
 /*contacto*/
 
@@ -588,7 +689,6 @@ header{
 
 .titcontact h2{
     font-size: 20px;
-    font-weight: bolder;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -640,7 +740,15 @@ header{
     justify-content: center;
     align-items: center;
 }
-/**/
 
+/*tamaño celular contacto*/
+@media screen and (max-width: 500px){
+    .titcontact h1{
+        font-size: 25px;
+    }
+    .titcontact h2{
+        font-size: 15px;
+    }
+}
 
 
