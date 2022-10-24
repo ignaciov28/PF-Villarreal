@@ -15,28 +15,37 @@ header{
 }
 
 /*inicio*/
+/*nav viejo*/
+/*
 .menuPrincipal{
     background-color: rgb(236, 236, 236);
     font-weight: bold;
     display: flex;
     justify-content: flex-start;
 }
-
 .logo{
     width: 100px;
     display: inline-block;
 }
-
 .menuPrincipal ul{
     list-style-type: none;
     display: inline-block;
     font-size: 20px
-
 }
 .menuPrincipal ul li{
     padding: 20px 20px;
     display: inline-block
 }
+*/
+.navbar{
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
 
 .titulosindex{
     margin: 50px;
@@ -49,7 +58,7 @@ header{
 
 .titulosindex h1{
     font-size: 40px;
-    color: rgb(8, 8, 87);
+    color: #163d74
 }
 
 .titulosindex h2{
@@ -254,8 +263,8 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    font-size: 40px;
-    color: rgb(8, 8, 87);
+    font-size: 35px;
+    color: #163d74
 }
 
 
@@ -272,7 +281,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(8, 8, 87)
+    background-color: #163d74
 }
 .admredes img{
     width: 700px;
@@ -296,7 +305,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(8, 8, 87)
+    background-color: #163d74
 }
 .identidad img{
     width: 700px;
@@ -321,7 +330,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(8, 8, 87);
+    background-color: #163d74
 }
 .medicion img{
     width: 700px;
@@ -340,8 +349,8 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    font-size: 40px;
-    color: rgb(8, 8, 87);
+    font-size: 35px;
+    color: #163d74
 }
 
 .tablapaquetes h4{
@@ -360,15 +369,15 @@ header{
     align-items: center;
     margin-top: 20px;
     margin-bottom: 40px;
-    font-size: 40px;
-    color: rgb(8, 8, 87);
+    font-size: 35px;
+    color: #163d74
 }
 
 .nosotrosblock{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(8, 8, 87)
+    background-color: #163d74
 }
 
 .nosotrosblock img{
@@ -390,8 +399,8 @@ header{
     align-items: center;
     margin-top: 20px;
     margin-bottom: 40px;
-    font-size: 40px;
-    color: rgb(8, 8, 87);
+    font-size: 35px;
+    color: #163d74
 }
 
 .titcontact h2{
