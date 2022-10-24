@@ -15,40 +15,16 @@ header{
 }
 
 /*inicio*/
-/*nav viejo*/
-/*
-.menuPrincipal{
-    background-color: rgb(236, 236, 236);
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-}
-.logo{
-    width: 100px;
-    display: inline-block;
-}
-.menuPrincipal ul{
-    list-style-type: none;
-    display: inline-block;
-    font-size: 20px
-}
-.menuPrincipal ul li{
-    padding: 20px 20px;
-    display: inline-block
-}
-*/
+
 .navbar{
     font-size: 20px;
     padding: 10px;
     color: rgb(255, 255, 255);
 }
 
-
-
-
-
 .titulosindex{
     margin: 50px;
+    text-align: center;
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -85,38 +61,13 @@ header{
 
 .imagenPrincipal{
     width: 1500px;
+    /*margin-top: 15px;*/
 }
 
-
-
-/*.imageneshome{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-    "servicios paquetes"
-    "nosotros contacto"
-}
-
-.serviciosimg{
-    grid-area: servicios;
-    width: 700px;
-}
-.paquetesimg{
-    grid-area: paquetes;
-    width: 700px;
-}
-.nosotrosimg{
-    grid-area: nosotros;
-    width: 700px;
-}
-.contactoimg{
-    grid-area: contacto;
-    width: 700px;
-}*/
 
 .imageneshome{
     position: relative;
+    margin-top: 30px;
 }
 .arriba{
     display: flex;
@@ -129,9 +80,6 @@ header{
     justify-content: space-evenly
 }
 
-.imageneshome{
-    margin-top: 30px;
-}
 
 
 .serv{
@@ -154,7 +102,6 @@ header{
 }
 .serv img:hover{
     width: 715px;
-
 }
 
 
@@ -226,6 +173,105 @@ header{
     width: 715px;
 }
 
+/*tamaño tablet inicio*/
+@media screen and (max-width: 768px){
+    .titulosindex{
+        margin: 20px;
+    }
+    .titulosindex h1{
+        font-size: 30px;
+    }
+    .titulosindex h2{
+        font-size: 15px;
+    }
+
+    .serv h2{
+        font-size: 30px;
+    }
+    .serv img{
+        width: 350px;
+    }
+
+    .paq h2{
+        font-size: 30px;
+    }
+    .paq img{
+        width: 350px;
+    }
+
+    .nos h2{
+        font-size: 30px;
+    }
+    .nos img{
+        width: 350px;
+    }
+
+    .cont h2{
+        font-size: 30px;
+    }
+    .cont img{
+        width: 350px;
+    }
+
+    .debajo{
+        margin-top: 15px;
+    }
+}
+
+
+/*tamaño celular*/
+@media screen and (max-width: 500px){
+    .titulosindex{
+        margin: 20px;
+    }
+    .titulosindex h1{
+        font-size: 20px;
+    }
+    .titulosindex h2{
+        font-size: 15px;
+    }
+
+.arriba{
+    flex-direction: column;
+}
+.debajo{
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+    .serv h2{
+        font-size: 25px;
+    }
+    .serv img{
+        width: 100%;
+    }
+
+    .paq h2{
+        font-size: 25px;
+    }
+    .paq img{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nos h2{
+        font-size: 25px;
+    }
+    .nos img{
+        width: 100%;
+    }
+
+    .cont h2{
+        font-size: 25px;
+    }
+    .cont img{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
+
 /*redes*/
 .redes{
     margin-top: 80px;
@@ -268,14 +314,15 @@ header{
 }
 
 
-.titadm{
+.titadm h2{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 70px;
     margin-bottom: 40px;
-    font-size: 40px;
-    font-weight: bolder;
+    font-size: 20px;
+    font-weight: bold;
+    color: #163d74
 }
 .admredes{
     display: flex;
@@ -293,13 +340,15 @@ header{
     color: aliceblue;
 }
 
-.titidentidad{
+.titidentidad h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px;
-    font-size: 40px;
-    font-weight: bolder;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #163d74
 }
 .identidad{
     display: flex;
@@ -318,13 +367,15 @@ header{
 }
 
 
-.titmedicion{
+.titmedicion h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px;
-    font-size: 40px;
-    font-weight: bolder;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #163d74
 }
 .medicion{
     display: flex;
@@ -342,6 +393,119 @@ header{
     color: aliceblue;
 }
 
+/*tamaño tablet servicios*/
+@media screen and (max-width: 768px){
+
+    .titservicios{
+        font-size: 30px;
+    }
+
+.admredes img{
+    width: 330px;
+    margin-left: 2px;
+}
+.admredes p{
+    font-size: 15px;
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.identidad img{
+    width: 330px;
+    margin-left: 2px;
+}
+.identidad p{
+    font-size: 15px;
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.medicion img{
+    width: 330px;
+    margin-left: 2px;
+    
+}
+.medicion p{
+    font-size: 15px;
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+/*tamaño celular servicios*/
+@media screen and (max-width: 500px){
+
+    .titservicios{
+        font-size: 25px;
+    }
+
+    .titadm h2{
+        font-size: 15px;
+    }
+    .admredes{
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+    }
+.admredes img{
+    width: 100%;
+}
+.admredes p{
+    margin-top: 5px;
+    font-size: 15px;
+    width: 100%;
+    color: black;
+
+}
+
+.titidentidad h2{
+    font-size: 15px;
+}
+
+.identidad{
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+.identidad img{
+    width: 100%;
+}
+.identidad p{
+    margin-top: 5px;
+    font-size: 15px;
+    width: 100%;
+    color: black;
+
+}
+
+.titmedicion h2{
+    font-size: 15px;
+}
+.medicion{
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+.medicion img{
+    width: 100%;
+    
+}
+.medicion p{
+    margin-top: 5px;
+    font-size: 15px;
+    width: 100%;
+    color: black;
+}
+}
+
 /*paquetes*/
 
 .titpaquetes{
@@ -354,13 +518,32 @@ header{
 }
 
 .tablapaquetes h4{
+    font-size: 20px;
     margin: 30px;
     font-weight: bolder;
 }
 .table{
     font-size: 20px;
+    background-color: #163d74;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
 }
 
+/*tamaño tablet paq*/
+@media screen and (max-width: 768px){
+    .titpaquetes{
+        font-size: 30px;
+    }
+    .tablapaquetes h4{
+        font-size: 15px;
+    }}
+
+    /*tamaño celular paq*/
+@media screen and (max-width: 500px){
+    .titpaquetes{
+        font-size: 25px;
+    }
+}
 
 /*nosotros*/
 .titnosotros{
@@ -457,3 +640,7 @@ header{
     justify-content: center;
     align-items: center;
 }
+/**/
+
+
+
