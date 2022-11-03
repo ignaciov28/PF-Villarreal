@@ -14,13 +14,45 @@ header{
 }
 
 .navbar{
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px;
-    color: rgb(255, 255, 255);
+    ul li{
+        margin-left: 140px;
+        font-weight: 500;
+    }
 }
 
 .imagennav{
     width: 90px;
     display: inline-block
-    
+}
+
+.redes{
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.logoFace{
+    width: 50px;
+}
+
+.logoInsta{
+    width: 50px;
+    margin-left: 10px;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+}
+
+.logoWsp{
+    width: 60px;
+}
+
+.textito{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
 }

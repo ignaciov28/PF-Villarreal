@@ -1,0 +1,329 @@
+/*nav*/
+@media screen and (max-width: 768px){
+    
+    .navbar{
+        font-size: 15px;
+        ul li{
+            margin-left: 0%;
+        }
+    }
+    .imagennav{
+        width: 80px;
+    }
+}
+
+/*tamaño tablet inicio*/
+@media screen and (max-width: 768px){
+    .titulosindex{
+        margin: 20px;
+        h1{
+            font-size: $titTab;
+        }
+        h2{
+            font-size: 15px;
+        }
+    }
+    .serv{
+    h2{
+        font-size: 30px;
+        }
+    .serv img{
+        width: 350px;
+        }
+    }
+    .paq{
+        h2{
+        font-size: 30px;
+        }
+        img{
+        width: 350px;
+        }
+    }
+    .nos{
+        h2{
+        font-size: 30px;
+        }
+        img{
+        width: 350px;
+        }
+    }
+    .cont{
+    h2{
+        font-size: 30px;
+        }
+    img{
+        width: 350px;
+        }
+    }
+    .debajo{
+        margin-top: 15px;
+    }
+}
+
+
+/*tamaño celular inicio*/
+@media screen and (max-width: 500px){
+    .titulosindex{
+        margin: 20px;
+        h1{
+            font-size: $titCel;
+        }
+        h2{
+            font-size: 15px;
+        }
+    }
+
+
+.arriba{
+    flex-direction: column;
+}
+.debajo{
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+    .serv{
+        h2{
+        font-size: 25px;
+        }
+    img{
+        width: 100%;
+        }
+}
+
+    .paq{
+        h2{
+        font-size: 25px;
+        }
+        img{
+        width: 100%;
+        margin-top: 10px;
+        }
+}
+
+    .nos{
+        h2{
+        font-size: 25px;
+        }
+    img{
+        width: 100%;
+        }
+}
+
+    .cont{
+        h2{
+        font-size: 25px;
+        }
+        img{
+        width: 100%;
+        margin-top: 10px;
+        }
+    }
+}
+
+/*tamaño tablet servicios*/
+@media screen and (max-width: 768px){
+
+    .titserviciosprin{
+        font-size: $titTab;
+    }
+
+.bloqueserv-1{
+    img{
+    width: 330px;
+    margin-left: 2px;
+    }
+    p{
+        font-size: 15px;
+        margin-left: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.bloqueserv-2{
+    img{
+    width: 330px;
+    margin-left: 2px;
+    }
+    p{
+        font-size: 15px;
+        margin-left: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.bloqueserv-3{
+    img{
+    width: 330px;
+    margin-left: 2px;
+    }
+    p{
+        font-size: 15px;
+        margin-left: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    }
+}
+
+/*tamaño celular servicios*/
+@media screen and (max-width: 500px){
+
+    .titserviciosprin{
+        font-size: $titCel;
+    }
+
+    .serviciostit-1 h2{
+        font-size: 15px;
+    }
+    .bloqueserv-1{
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        img{
+            width: 100%;
+        }
+        p{
+            margin-top: 5px;
+            font-size: 15px;
+            width: 100%;
+            color: black;
+        }
+    } 
+
+    .serviciostit-2 h2{
+    font-size: 15px;
+}
+
+.bloqueserv-2{
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    img{
+        width: 100%;
+    }
+    p{
+        margin-top: 5px;
+        font-size: 15px;
+        width: 100%;
+        color: black;
+    }
+}
+
+.serviciostit-3 h2{
+    font-size: 15px;
+}
+
+.bloqueserv-3{
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    img{
+        width: 100%;
+    }
+    p{
+        margin-top: 5px;
+        font-size: 15px;
+        width: 100%;
+        color: black;
+    }
+    }
+}
+
+/*tamaño tablet paq*/
+@media screen and (max-width: 768px){
+    .titpaquetes{
+        font-size: $titTab;
+        h4{
+            font-size: 15px;
+        }
+    }
+}
+
+
+    /*tamaño celular paq*/
+@media screen and (max-width: 500px){
+    .titpaquetes{
+        font-size: $titCel;
+    }
+    .tablapaquetes h4{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+/*tamaño tablet nosotros*/
+@media screen and (max-width: 768px){
+
+    .titnosotros{
+        font-size: $titTab;
+    }
+
+.nosotrosblock{
+    img{
+    width: 330px;
+    margin-left: 2px;
+    }
+    p{
+        font-size: 15px;
+        margin-left: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+}
+
+
+/*tamaño celular nosotros*/
+@media screen and (max-width: 500px){
+
+    .titnosotros{
+        font-size: $titCel;
+    }
+
+    .nosotrosblock{
+        flex-direction: column;
+        background-color: $colorSecundario;
+        img{
+            width: 100%;
+        }
+        p{
+            margin-top: 10px;
+            font-size: 15px;
+            width: 100%;
+            color: black;
+        }
+        }
+    }
+
+
+    /*tamaño celular contacto*/
+@media screen and (max-width: 500px){
+    .titcontact{
+    h1{
+        font-size: $titTab;
+    }
+    h2{
+        font-size: 15px;
+    }
+}
+    .mb-3{
+        input{
+        width: 300px;
+        }
+        textarea{
+        width: 300px;
+        }
+    }
+}

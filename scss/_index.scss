@@ -7,8 +7,8 @@
     animation-name: aparecer;
     animation-duration: 1s;
     h1{
-        font-size: 40px;
-        color: #163d74
+        font-size: $titEsc;
+        color: $colorPrincipal;
     }
     h2{
         font-size: 20px;
@@ -53,87 +53,25 @@
 }
 
 
-.serv{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    h2{
-        position: absolute;
-        color: aliceblue;
-        font-size: 40px;
-        font-weight: bolder;
-    }
-    img{
-        width: 700px;
-        border-radius: 20px;
-        transition: width 1s;
-        &:hover{
-            width: 715px;
+@for $i from 1 through 4{
+    .imagenesindex-#{$i}{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2{
+            position: absolute;
+            color: $colorSecundario;
+            font-size: 40px;
+            font-weight: bolder;
         }
-    }
-}
-
-.paq{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    h2{
-        position: absolute;
-        color: aliceblue;
-        font-size: 40px;
-        font-weight: bolder;
-    }
-    img{
-        width: 700px;
-        border-radius: 20px;
-        transition: width 1s;
-        &:hover{
-            width: 715px;
-        }
-    }
-}
-
-.nos{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    h2{
-        position: absolute;
-        color: aliceblue;
-        font-size: 40px;
-        font-weight: bolder;
-        
-    }
-    img{
-        width: 700px;
-        border-radius: 20px;
-        transition: width 1s;
-        &:hover{
-            width: 715px;
-        }
-    }
-}
-
-.cont{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    h2{
-        position: absolute;
-        color: aliceblue;
-        font-size: 40px;
-        font-weight: bolder;
-    }
-    img{
-        width: 700px;
-        border-radius: 20px;
-        transition: width 1s;
-        &:hover{
-            width: 715px;
+        img{
+            width: $imgEsc;
+            border-radius: 20px;
+            transition: width 1s;
+            &:hover{
+                width: $imgEsc + 15;
+            }
         }
     }
 }

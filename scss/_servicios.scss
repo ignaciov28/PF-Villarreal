@@ -1,0 +1,41 @@
+.titserviciosprin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: $titEsc;
+    color: $colorPrincipal;
+}
+
+
+@for $i from 1 through 3{
+        .serviciostit-#{$i}{
+        h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 40px;
+        font-size: 20px;
+        font-weight: bold;
+        color: $colorPrincipal}
+}
+}
+
+@for $i from 1 through 3{
+    .bloqueserv-#{$i}{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $colorPrincipal;
+    img{
+        width: $imgEsc;
+        margin-left: 20px;
+    }
+    p{
+        font-size: 20px;
+        margin-left: 60px;
+        color: $colorSecundario;
+    }
+    }
+}

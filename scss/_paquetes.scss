@@ -1,0 +1,27 @@
+.titpaquetes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: $titEsc;
+    color: $colorPrincipal;
+}
+
+.tablapaquetes h4{
+    font-size: 20px;
+    margin: 30px;
+    font-weight: bolder;
+}
+.table{
+    @if $fiesta == comun {
+        background-color: $colorPrincipal;
+    } @else if $fiesta == navidad {
+        background-color: rgb(3, 90, 36, 0.707);
+    } @else if $fiesta == mesespecial {
+        background-color: rgba(124, 7, 7, 0.682);
+    }
+
+    font-size: 20px;
+    color: $colorSecundario;
+    border-radius: 15px;
+}

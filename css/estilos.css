@@ -25,15 +25,32 @@ header{
 /*inicio*/
 
 .navbar{
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px;
-    color: rgb(255, 255, 255);
+}
+
+
+.navbar ul li{
+    margin-left: 140px;
+    font-weight: 500;
 }
 
 .imagennav{
     width: 90px;
     display: inline-block
+}
+
+@media screen and (max-width: 768px){
     
+    .navbar{
+        font-size: 15px;
+    }
+    .navbar ul li{
+    margin-left: 0%;
+}
+    .imagennav{
+        width: 80px;
+    }
 }
 
 .titulosindex{
@@ -47,7 +64,7 @@ header{
 }
 
 .titulosindex h1{
-    font-size: 40px;
+    font-size: 35px;
     color: #163d74
 }
 
@@ -237,7 +254,7 @@ header{
         margin: 20px;
     }
     .titulosindex h1{
-        font-size: 20px;
+        font-size: 25px;
     }
     .titulosindex h2{
         font-size: 15px;
@@ -295,6 +312,7 @@ header{
 
 
 /*redes*/
+
 .redes{
     margin-top: 80px;
     margin-left: 10px;
@@ -337,7 +355,7 @@ header{
 
 
 /*servicios*/
-.titservicios{
+.titserviciosprin{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -347,7 +365,7 @@ header{
 }
 
 
-.titadm h2{
+.serviciostit-1 h2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -373,7 +391,7 @@ header{
     color: aliceblue;
 }
 
-.titidentidad h2{
+.serviciostit-2 h2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -400,7 +418,7 @@ header{
 }
 
 
-.titmedicion h2{
+.serviciostit-3 h2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -718,7 +736,6 @@ header{
     background-color: rgb(255, 255, 255);
     font-size: 15px;
     transition: all 1s;
-
 }
 .mb-3 input:focus{
     height: 40px;
@@ -752,6 +769,12 @@ header{
     }
     .titcontact h2{
         font-size: 15px;
+    }
+    .mb-3 input{
+        width: 300px;
+    }
+    .mb-3 textarea{
+        width: 300px;
     }
 }
 
