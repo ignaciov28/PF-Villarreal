@@ -1,0 +1,139 @@
+.titulosindex{
+    margin: 50px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    animation-name: aparecer;
+    animation-duration: 1s;
+    h1{
+        font-size: 40px;
+        color: #163d74
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+
+@keyframes aparecer{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.imagenPrincipal{
+    width: 1500px;
+}
+
+.imageneshome{
+    position: relative;
+    margin-top: 30px;
+}
+.arriba{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.debajo{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+
+.serv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        position: absolute;
+        color: aliceblue;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    img{
+        width: 700px;
+        border-radius: 20px;
+        transition: width 1s;
+        &:hover{
+            width: 715px;
+        }
+    }
+}
+
+.paq{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        position: absolute;
+        color: aliceblue;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    img{
+        width: 700px;
+        border-radius: 20px;
+        transition: width 1s;
+        &:hover{
+            width: 715px;
+        }
+    }
+}
+
+.nos{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        position: absolute;
+        color: aliceblue;
+        font-size: 40px;
+        font-weight: bolder;
+        
+    }
+    img{
+        width: 700px;
+        border-radius: 20px;
+        transition: width 1s;
+        &:hover{
+            width: 715px;
+        }
+    }
+}
+
+.cont{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        position: absolute;
+        color: aliceblue;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    img{
+        width: 700px;
+        border-radius: 20px;
+        transition: width 1s;
+        &:hover{
+            width: 715px;
+        }
+    }
+}
