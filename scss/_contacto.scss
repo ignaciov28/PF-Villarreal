@@ -5,11 +5,11 @@
     align-items: center;
     margin-top: 20px;
     margin-bottom: 40px;
-    font-size: 35px;
-    color: #163d74;
+    font-size: $titEsc;
+    color: $colorPrincipal;
     }
     h2{
-        font-size: 20px;
+        font-size: $subtEsc;
         display: flex;
         justify-content: center;
         align-items: center;

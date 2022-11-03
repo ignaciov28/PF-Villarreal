@@ -79,14 +79,12 @@ header {
   position: relative;
   margin-top: 30px; }
 
-.arriba {
+.arriba, .debajo {
   display: flex;
   justify-content: space-evenly; }
 
 .debajo {
-  margin-top: 35px;
-  display: flex;
-  justify-content: space-evenly; }
+  margin-top: 35px; }
 
 .imagenesindex-1 {
   position: relative;
@@ -156,7 +154,7 @@ header {
     .imagenesindex-4 img:hover {
       width: 715px; }
 
-.titserviciosprin {
+.titserviciosprin, .titpaquetes {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -232,14 +230,6 @@ header {
     font-size: 20px;
     margin-left: 60px;
     color: white; }
-
-.titpaquetes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  font-size: 35px;
-  color: #163d74; }
 
 .tablapaquetes h4 {
   font-size: 20px;
@@ -371,7 +361,7 @@ header {
       font-size: 25px; }
     .titulosindex h2 {
       font-size: 15px; }
-  .arriba {
+  .arriba, .debajo {
     flex-direction: column; }
   .debajo {
     flex-direction: column;
@@ -397,7 +387,7 @@ header {
 
 /*tamaño tablet servicios*/
 @media screen and (max-width: 768px) {
-  .titserviciosprin {
+  .titserviciosprin, .titpaquetes {
     font-size: 28px; }
   .bloqueserv-1 img {
     width: 330px;
@@ -432,7 +422,7 @@ header {
 
 /*tamaño celular servicios*/
 @media screen and (max-width: 500px) {
-  .titserviciosprin {
+  .titserviciosprin, .titpaquetes {
     font-size: 25px; }
   .serviciostit-1 h2 {
     font-size: 15px; }
