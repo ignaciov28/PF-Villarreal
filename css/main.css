@@ -19,7 +19,7 @@ header {
     font-weight: 500; }
 
 .imagennav {
-  width: 90px;
+  width: 120px;
   display: inline-block; }
 
 .redes {
@@ -334,21 +334,21 @@ header {
       font-size: 28px; }
     .titulosindex h2 {
       font-size: 15px; }
-  .serv h2 {
+  .imagenesindex-1 h2 {
     font-size: 30px; }
-  .serv .serv img {
+  .imagenesindex-1 img {
     width: 350px; }
-  .paq h2 {
+  .imagenesindex-2 h2 {
     font-size: 30px; }
-  .paq img {
+  .imagenesindex-2 img {
     width: 350px; }
-  .nos h2 {
+  .imagenesindex-3 h2 {
     font-size: 30px; }
-  .nos img {
+  .imagenesindex-3 img {
     width: 350px; }
-  .cont h2 {
+  .imagenesindex-4 h2 {
     font-size: 30px; }
-  .cont img {
+  .imagenesindex-4 img {
     width: 350px; }
   .debajo {
     margin-top: 15px; } }
@@ -366,22 +366,22 @@ header {
   .debajo {
     flex-direction: column;
     margin-top: 10px; }
-  .serv h2 {
+  .imagenesindex-1 h2 {
     font-size: 25px; }
-  .serv img {
+  .imagenesindex-1 img {
     width: 100%; }
-  .paq h2 {
+  .imagenesindex-2 h2 {
     font-size: 25px; }
-  .paq img {
+  .imagenesindex-2 img {
     width: 100%;
     margin-top: 10px; }
-  .nos h2 {
+  .imagenesindex-3 h2 {
     font-size: 25px; }
-  .nos img {
+  .imagenesindex-3 img {
     width: 100%; }
-  .cont h2 {
+  .imagenesindex-4 h2 {
     font-size: 25px; }
-  .cont img {
+  .imagenesindex-4 img {
     width: 100%;
     margin-top: 10px; } }
 
