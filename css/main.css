@@ -1,7 +1,12 @@
 @charset "UTF-8";
 html {
-  font-size: 62.5%;
-  font-family: 'Lato', sans-serif; }
+  font-size: 62.5%; }
+  html p {
+    font-family: 'Poppins', sans-serif; }
+  html h1 {
+    font-family: 'Poppins', sans-serif; }
+  html h2 {
+    font-family: 'Poppins', sans-serif; }
 
 a {
   text-decoration: none; }
@@ -13,10 +18,11 @@ header {
 
 .navbar {
   font-size: 18px;
-  padding: 10px; }
+  padding: 10px;
+  font-family: 'Poppins', sans-serif; }
   .navbar ul li {
     margin-left: 140px;
-    font-weight: 500; }
+    text-align: right; }
 
 .imagennav {
   width: 120px;
@@ -84,7 +90,8 @@ header {
   justify-content: space-evenly; }
 
 .debajo {
-  margin-top: 35px; }
+  margin-top: 35px;
+  margin-bottom: 55px; }
 
 .imagenesindex-1 {
   position: relative;
@@ -155,10 +162,8 @@ header {
       width: 715px; }
 
 .titserviciosprin, .titpaquetes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+  text-align: center;
+  margin-top: 30px;
   font-size: 35px;
   color: #163d74; }
 
@@ -196,9 +201,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #163d74; }
+  background-image: linear-gradient(to left, #3060a3, #0f3364);
+  height: 400px;
+  width: 1500px;
+  border-radius: 20px;
+  margin: 0 auto; }
   .bloqueserv-1 img {
-    width: 700px;
+    width: 250px;
     margin-left: 20px; }
   .bloqueserv-1 p {
     font-size: 20px;
@@ -209,9 +218,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #163d74; }
+  background-image: linear-gradient(to left, #3060a3, #0f3364);
+  height: 400px;
+  width: 1500px;
+  border-radius: 20px;
+  margin: 0 auto; }
   .bloqueserv-2 img {
-    width: 700px;
+    width: 250px;
     margin-left: 20px; }
   .bloqueserv-2 p {
     font-size: 20px;
@@ -222,9 +235,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #163d74; }
+  background-image: linear-gradient(to left, #3060a3, #0f3364);
+  height: 400px;
+  width: 1500px;
+  border-radius: 20px;
+  margin: 0 auto; }
   .bloqueserv-3 img {
-    width: 700px;
+    width: 250px;
     margin-left: 20px; }
   .bloqueserv-3 p {
     font-size: 20px;
@@ -234,19 +251,21 @@ header {
 .tablapaquetes h4 {
   font-size: 20px;
   margin: 30px;
-  font-weight: bolder; }
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif; }
 
 .table {
   background-color: #163d74;
   font-size: 20px;
   color: white;
-  border-radius: 15px; }
+  border-radius: 15px;
+  font-family: 'Poppins', sans-serif; }
 
 .titnosotros {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 35px;
   color: #163d74; }
 
@@ -264,20 +283,21 @@ header {
     margin-left: 60px;
     color: white; }
 
-.titcontact h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  font-size: 35px;
-  color: #163d74; }
-
-.titcontact h2 {
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+.titcontact {
+  text-align: center; }
+  .titcontact h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 35px;
+    color: #163d74; }
+  .titcontact h2 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
 
 .formulario {
   margin-top: 30px;
@@ -285,7 +305,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-weight: bold; }
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif; }
 
 .btn-primary {
   font-size: 15px; }
@@ -353,12 +374,15 @@ header {
   .debajo {
     margin-top: 15px; } }
 
+.marcas {
+  display: none; }
+
 /*tamaño celular inicio*/
 @media screen and (max-width: 500px) {
   .titulosindex {
     margin: 20px; }
     .titulosindex h1 {
-      font-size: 25px; }
+      font-size: 15px; }
     .titulosindex h2 {
       font-size: 15px; }
   .arriba, .debajo {
@@ -389,36 +413,45 @@ header {
 @media screen and (max-width: 768px) {
   .titserviciosprin, .titpaquetes {
     font-size: 28px; }
-  .bloqueserv-1 img {
-    width: 330px;
-    margin-left: 2px; }
-  .bloqueserv-1 p {
-    font-size: 15px;
-    margin-left: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .bloqueserv-2 img {
-    width: 330px;
-    margin-left: 2px; }
-  .bloqueserv-2 p {
-    font-size: 15px;
-    margin-left: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .bloqueserv-3 img {
-    width: 330px;
-    margin-left: 2px; }
-  .bloqueserv-3 p {
-    font-size: 15px;
-    margin-left: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; } }
+  .bloqueserv-1 {
+    height: 200px;
+    width: 670px; }
+    .bloqueserv-1 img {
+      width: 150px;
+      margin-left: 2px; }
+    .bloqueserv-1 p {
+      font-size: 15px;
+      margin-left: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .bloqueserv-2 {
+    height: 200px;
+    width: 670px; }
+    .bloqueserv-2 img {
+      width: 150px;
+      margin-left: 2px; }
+    .bloqueserv-2 p {
+      font-size: 15px;
+      margin-left: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .bloqueserv-3 {
+    height: 200px;
+    width: 670px; }
+    .bloqueserv-3 img {
+      width: 150px;
+      margin-left: 2px; }
+    .bloqueserv-3 p {
+      font-size: 15px;
+      margin-left: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; } }
 
 /*tamaño celular servicios*/
 @media screen and (max-width: 500px) {
@@ -427,39 +460,34 @@ header {
   .serviciostit-1 h2 {
     font-size: 15px; }
   .bloqueserv-1 {
-    flex-direction: column;
-    background-color: white; }
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 375px; }
     .bloqueserv-1 img {
-      width: 100%; }
+      width: 150px; }
     .bloqueserv-1 p {
-      margin-top: 5px;
-      font-size: 15px;
-      width: 100%;
-      color: black; }
+      display: none; }
   .serviciostit-2 h2 {
     font-size: 15px; }
   .bloqueserv-2 {
     flex-direction: column;
-    background-color: white; }
+    height: 200px;
+    width: 375px; }
     .bloqueserv-2 img {
-      width: 100%; }
+      width: 150px; }
     .bloqueserv-2 p {
-      margin-top: 5px;
-      font-size: 15px;
-      width: 100%;
-      color: black; }
+      display: none; }
   .serviciostit-3 h2 {
     font-size: 15px; }
   .bloqueserv-3 {
     flex-direction: column;
-    background-color: white; }
+    height: 200px;
+    width: 375px; }
     .bloqueserv-3 img {
-      width: 100%; }
+      width: 150px; }
     .bloqueserv-3 p {
-      margin-top: 5px;
-      font-size: 15px;
-      width: 100%;
-      color: black; } }
+      display: none; } }
 
 /*tamaño tablet paq*/
 @media screen and (max-width: 768px) {

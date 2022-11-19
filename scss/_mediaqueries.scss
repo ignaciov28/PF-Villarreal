@@ -59,6 +59,9 @@
         margin-top: 15px;
     }
 }
+.marcas{
+    display: none;
+    }
 
 
 /*tamaño celular inicio*/
@@ -66,7 +69,7 @@
     .titulosindex{
         margin: 20px;
         h1{
-            font-size: $titCel;
+            font-size: 15px;
         }
         h2{
             font-size: 15px;
@@ -121,6 +124,8 @@
     }
 }
 
+
+
 /*tamaño tablet servicios*/
 @media screen and (max-width: 768px){
 
@@ -129,13 +134,15 @@
     }
 
 .bloqueserv-1{
+    height: 200px;
+    width: 670px;
     img{
-    width: 330px;
+    width: $imgPngTab;
     margin-left: 2px;
     }
     p{
         font-size: 15px;
-        margin-left: 10px;
+        margin-left: 20px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -145,13 +152,15 @@
 
 
 .bloqueserv-2{
+    height: 200px;
+    width: 670px;
     img{
-    width: 330px;
+    width: $imgPngTab;
     margin-left: 2px;
     }
     p{
         font-size: 15px;
-        margin-left: 10px;
+        margin-left: 20px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -161,13 +170,15 @@
 
 
 .bloqueserv-3{
+    height: 200px;
+    width: 670px;
     img{
-    width: 330px;
+    width: $imgPngTab;
     margin-left: 2px;
     }
     p{
         font-size: 15px;
-        margin-left: 10px;
+        margin-left: 20px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -187,16 +198,15 @@
         font-size: 15px;
     }
     .bloqueserv-1{
-        flex-direction: column;
-        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        width: 375px;
         img{
-            width: 100%;
+            width: $imgPngTab;
         }
         p{
-            margin-top: 5px;
-            font-size: 15px;
-            width: 100%;
-            color: black;
+        display: none;
         }
     } 
 
@@ -206,15 +216,13 @@
 
 .bloqueserv-2{
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 375px;
     img{
-        width: 100%;
+        width: $imgPngTab;
     }
     p{
-        margin-top: 5px;
-        font-size: 15px;
-        width: 100%;
-        color: black;
+        display: none;
     }
 }
 
@@ -224,15 +232,13 @@
 
 .bloqueserv-3{
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 375px;
     img{
-        width: 100%;
+        width: $imgPngTab;
     }
     p{
-        margin-top: 5px;
-        font-size: 15px;
-        width: 100%;
-        color: black;
+        display: none;
     }
     }
 }

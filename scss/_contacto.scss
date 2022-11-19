@@ -1,9 +1,10 @@
 .titcontact{
+    text-align: center;
     h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 40px;
     font-size: $titEsc;
     color: $colorPrincipal;
@@ -23,6 +24,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn-primary{

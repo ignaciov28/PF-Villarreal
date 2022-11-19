@@ -1,6 +1,14 @@
 html{
     font-size: 62.5%;
-    font-family: 'Lato', sans-serif;   
+    p{
+        font-family: 'Poppins', sans-serif;
+    }
+    h1{
+        font-family: 'Poppins', sans-serif;
+    }
+    h2{
+        font-family: 'Poppins', sans-serif;
+    }
 }
 
 a{
@@ -16,9 +24,10 @@ header{
 .navbar{
     font-size: 18px;
     padding: 10px;
+    font-family: 'Poppins', sans-serif;
     ul li{
         margin-left: 140px;
-        font-weight: 500;
+        text-align: right;
     }
 }
 

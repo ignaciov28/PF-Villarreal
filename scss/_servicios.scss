@@ -1,8 +1,6 @@
 .titserviciosprin{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    text-align: center;
+    margin-top: 30px;
     font-size: $titEsc;
     color: $colorPrincipal;
 }
@@ -24,12 +22,16 @@
 
 @for $i from 1 through 3{
     .bloqueserv-#{$i}{
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $colorPrincipal;
+    background-image: linear-gradient(to left, #3060a3, #0f3364);
+    height: 400px;
+    width: 1500px;
+    border-radius: 20px;
+    margin: 0 auto;
     img{
-        width: $imgEsc;
+        width: $imgPng;
         margin-left: 20px;
     }
     p{
