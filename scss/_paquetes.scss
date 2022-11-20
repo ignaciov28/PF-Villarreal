@@ -7,10 +7,11 @@
     margin: 30px;
     font-weight: bolder;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 .table{
     @if $fiesta == comun {
-        background-color: $colorPrincipal;
+        background-image: linear-gradient(to left, #3060a3, #0f3364);;
     } @else if $fiesta == navidad {
         background-color: rgb(3, 90, 36, 0.707);
     } @else if $fiesta == mesespecial {
@@ -21,4 +22,19 @@
     color: $colorSecundario;
     border-radius: 15px;
     font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    width: 1200px;
+    height: 300px;
+}
+
+.celulares{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgp1{
+    width: 600px;
+}
+.imgp2{
+    width: 500px;
 }

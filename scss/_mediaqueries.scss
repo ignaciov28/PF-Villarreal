@@ -58,21 +58,31 @@
     .debajo{
         margin-top: 15px;
     }
-}
-.marcas{
-    display: none;
+    .submarcas{
+        margin-bottom: 7px;
     }
-
+    .marca{
+        height: 100px;
+        img {
+            width: 60px;
+            margin: 50px;
+            transition: width 0.5s;
+            &:hover{
+                width: 60px + 5px;
+            }
+    }
+}
+}
 
 /*tamaño celular inicio*/
 @media screen and (max-width: 500px){
     .titulosindex{
         margin: 20px;
         h1{
-            font-size: 15px;
+            font-size: 17px;
         }
         h2{
-            font-size: 15px;
+            font-size: 14px;
         }
     }
 
@@ -120,6 +130,17 @@
         img{
         width: 100%;
         margin-top: 10px;
+        }
+    }
+    .marca{
+        height: 60px;
+        img {
+            width: 40px;
+            margin: 20px;
+            transition: width 0.5s;
+            &:hover{
+                width: 40px + 5px;
+            }
         }
     }
 }
@@ -251,8 +272,18 @@
             font-size: 15px;
         }
     }
+    .table{
+        font-size: 20px;
+        width: 600px;
+        height: 200px;
 }
-
+.imgp1{
+    width: 350px;
+}
+.imgp2{
+    width: 270px;
+}
+}
 
     /*tamaño celular paq*/
 @media screen and (max-width: 500px){
@@ -264,6 +295,18 @@
         display: flex;
         justify-content: center;
     }
+    .table{
+        font-size: 15px;
+        width: 350px;
+        height: 150px;
+}
+.imgp1{
+    margin-top: 20px;
+    width: 350px;
+}
+.imgp2{
+    display: none;
+}
 }
 
 
@@ -275,42 +318,46 @@
     }
 
 .nosotrosblock{
+
+    height: 300px;
+    width: 730px;
+    border-radius: 20px;
+    margin: 0 auto;
     img{
-    width: 330px;
-    margin-left: 2px;
+        width: 450;
+        margin-left: 10px;
     }
     p{
-        font-size: 15px;
-        margin-left: 10px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        font-size: 12px;
+        margin-left: 30px;
+        color: $colorSecundario;
     }
-}
+    }
 }
 
 
 /*tamaño celular nosotros*/
 @media screen and (max-width: 500px){
-
     .titnosotros{
         font-size: $titCel;
     }
-
     .nosotrosblock{
-        flex-direction: column;
-        background-color: $colorSecundario;
-        img{
-            width: 100%;
-        }
-        p{
-            margin-top: 10px;
-            font-size: 15px;
-            width: 100%;
-            color: black;
-        }
-        }
+            flex-direction: column;
+            height: 500px;
+            width: 380px;
+            border-radius: 20px;
+            img{
+                width: 380;
+                margin-right: 10px;
+                margin-top: 10px;
+            }
+            p{
+                margin-top: 10px;
+                margin-right: 25px;
+                font-size: 12px;
+                color: $colorSecundario;
+            }
+            }
     }
 
 

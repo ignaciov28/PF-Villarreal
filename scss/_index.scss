@@ -75,3 +75,27 @@
         }
     }
 }
+
+
+.submarcas{
+    text-align: center;
+    margin-bottom: 10px;
+    h2{
+        color: #c0c0c0;
+    }
+}
+.marca{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcdcdc;
+    height: 130px;
+    img {
+        width: 85px;
+        margin: 80px;
+        transition: width 0.5s;
+        &:hover{
+            width: 85px + 5px;
+        }
+    }
+}
